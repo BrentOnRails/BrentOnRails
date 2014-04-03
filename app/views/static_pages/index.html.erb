@@ -339,27 +339,35 @@
 
           <div class="col-sm-7">
           <h3>Get in Touch</h3>
-              <form  class="form-horizontal" id="contact-form">
+
+
+        <form  class="form-horizontal" id="contact-form" action="<%= messages_url %>" method="POST">
+
+          <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+
         <div class="control-group">
             <label class="control-label" for="name">Name</label>
             <div class="controls">
                 <input type="text" name="name" id="name" placeholder="Your name" class="form-control input-lg ">
             </div>
         </div>
+
         <div class="control-group">
             <label class="control-label" for="email">Email Address</label>
             <div class="controls">
                 <input type="text" name="email" id="email" placeholder="Your email address" class="form-control input-lg">
             </div>
         </div>
+
         <div class="control-group">
             <label class="control-label" for="message">Message</label>
             <div class="controls">
                 <textarea name="message" id="message" rows="8" class="form-control input-lg"></textarea>
             </div>
         </div>
+
         <div class="form-actions">
-            <a href="mailto:Brentalansmith@gmail.com" class="btn btn-default btn-lg btn-block">Submit Message</a>
+            <button class="btn btn-default btn-lg btn-block">Submit Message</button>
         </div>
     </form><!-- End contact-form -->
           </div>
