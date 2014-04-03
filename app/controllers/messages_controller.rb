@@ -4,9 +4,10 @@ class MessagesController < ApplicationController
     @message = Message.new(message_params)
 
     if @message.save
+      Notifier.new_message(@message).deliver!
       redirect_to root_url
     else
-      flash.now[:errors] = @user.errors.full_message
+      flash.now[:errors] = @message.errors.full_message
     end
   end
 
