@@ -7,6 +7,7 @@ class MessagesController < ApplicationController
       redirect_to root_url
     else
       flash.now[:errors] = @user.errors.full_message
+    end
   end
 
 
