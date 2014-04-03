@@ -18,7 +18,6 @@
 //= require html5shiv.js
 //= require jquery-1.10.2.min.js
 //= require jquery.isotope.min.js
-//= require jquery.magnific-popup.min.js
 //= require jquery.nav.js
 //= require jquery.scrollTo.js
 //= require jquery.sticky.js
@@ -28,5 +27,6 @@
 //= require modernizr-2.6.2.min.js
 //= require respond.min.js
 //= require waypoints.min.js
+//= require jquery.magnific-popup.js
 //= require jquery.vegas.js
 //= require main.js

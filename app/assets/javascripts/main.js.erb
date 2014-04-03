@@ -50,12 +50,13 @@ $(document).ready(function(){
 
 /* Magnific Popup */
 $('.grid-wrapper').magnificPopup({
-		  delegate: 'a',
-		  type: 'image',
-		  gallery:{
-			enabled:true
-		  }
-		});
+
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+      enabled:true
+      }
+});
 
 
 
@@ -98,9 +99,10 @@ $('.chart').waypoint(function() {
 			  backgrounds:[
 
 				{ src:'<%= image_path('slider/01.jpg')%>', fade:1000 },
-				{ src:'<%= image_path('slider/02.jpg')%>', fade:1000 },
-				{ src:'<%= image_path('slider/03.jpg')%>', fade:1000 },
-				{ src:'<%= image_path('slider/04.jpg')%>', fade:1000 }
+        // { src:'<%= image_path('slider/02.jpg')%>', fade:1000 },
+        // { src:'<%= image_path('slider/03.jpg')%>', fade:1000 },
+				{ src:'<%= image_path('slider/04.jpg')%>', fade:1000 },
+        { src:'<%= image_path('slider/05.jpg')%>', fade:1000 }
 			  ]
 			})('overlay', {
 			  src:'<%= image_path('overlays/16.png')%>'

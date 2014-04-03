@@ -112,7 +112,7 @@
                 <p>Born and raised on the Gulf Coast of Florida, in Bradenton, FL, my interest in application development began early in middle school with the (then) ubiquitous geocities and angelfire, which began my long love affair with programming. After discovering MMORPGs I began creating bots for Ultima Online using a psuedo-code language called <a href="http://EasyUO.com">EasyUO</a> based on the Pascal programming Language. When I realized that I could easily make extra spending money by expanding my small program I began adding additional bots and additional programs, which led to the creation of my first company Rivers Rescources (huge Weezer fan at the time!) After several years I moved onto other games and other languages. I eventually became an avid user and (occassional) contributor to the wildly successful <a href="http://mmoglider.net">MMOGlider</a>.</p>
                 <p>After experiencing a market collapse for the third time when MMOGlider was banned and shuttered, I decided it was time to move away from part time jobs and part time scripting.  Luckily, I had my marketing degree to fall back on.  Unluckily, I've realized several years later that I preferred the Coding over the Cubicles, the Stylesheets over the Spreadsheets, and the Admin Console over the Sales Tracking.</p>
                 <p>After graduating I spent time waiting tables and a stint selling timeshares in Orlando.  I moved to Newnan, GA to give the Atlanta job market a shot.  I landed a sales job at a small medical tech company specializing in collection.  After attempting to create a better CRM for our sales team I was approached by the COO who noticed I was "pretty good at excel".  I moved to the File Team and eventually moved my way up to Data Integration Engineer.</p>
-                 <p>Eventually Georgia was no longer where I was meant to be!  I sold my house, said my goodbyes and landed a coveted position as a student at <a href"http://appacademy.io">App Academy</a> in San Francisco.  After 12 weeks of crashing at a friendss of friend's place, I have learned more than I ever thought possible in such a short amount of time (undoubtedly more than I had learned in the 20 years prior on my own.) I'm now looking for a Junior Rails Developer position and I couldn't be happier with the direction my life is headed!</p>
+                 <p>Eventually Georgia was no longer where I was meant to be!  I sold my house, said my goodbyes and landed a coveted position as a student at <a href="http://appacademy.io">App Academy</a> in San Francisco.  After 12 weeks of crashing at a friendss of friend's place, I have learned more than I ever thought possible in such a short amount of time (undoubtedly more than I had learned in the 20 years prior on my own.) I'm now looking for a Junior Rails Developer position and I couldn't be happier with the direction my life is headed!</p>
               </div>
 
             </div>
@@ -259,20 +259,20 @@
                 <div id="grid-controls-wrapper">
                 <ul class="nav nav-pills center-pills grid-controls">
                   <li class="active filter"><a href="javascript:void(0)" data-filter="*">All</a></li>
-                  <li class="filter" ><a href="javascript:void(0)" data-filter=".Code">Code</a></li>
+                  <!-- <li class="filter" ><a href="javascript:void(0)" data-filter=".Code">Code</a></li> -->
                   <!-- <li class="filter" ><a href="javascript:void(0)" data-filter=".design">Design</a></li>
                   <li class="filter"><a href="javascript:void(0)"  data-filter=".photography">Photography</a></li> -->
-                  <li class="filter" ><a href="javascript:void(0)" data-filter=".Web">Website</a></li>
+                  <li class="filter" ><a href="javascript:void(0)" data-filter=".screen">Screenshots</a></li>
                 </ul>
               </div>
 
                 <div>
                   <ul id="grid" class="grid-wrapper">
-                      <li class="mix Code" >
+                      <li class="mix screen" >
 
 
 
-				<%= link_to asset_path('images/portfolio/large/01.png'), :id => 'landing_link' do %>
+				<%= link_to image_path('portfolio/large/01.png'), :id => 'landing_link' do %>
 						<div class="overlay"><i class="fa fa-search"></i></div>
 						<%= image_tag("portfolio/small/01.png")%>
 					 <% end %>
@@ -280,16 +280,16 @@
 
 
 
-                      <li class="mix Web">
-												<%= link_to asset_path('images/portfolio/large/02.png'), :id => 'landing_link' do %>
+                      <li class="mix screen">
+												<%= link_to image_path('portfolio/large/04.png'), :id => 'landing_link' do %>
 														<div class="overlay"><i class="fa fa-search"></i></div>
-														<%= image_tag("portfolio/small/02.png")%>
+														<%= image_tag("portfolio/small/04.png")%>
 													 <% end %>
                         </li>
-                      <li class="mix Web">
-												<%= link_to asset_path('images/portfolio/large/03.png'), :id => 'landing_link' do %>
+                      <li class="mix screen">
+												<%= link_to image_path('portfolio/large/10.jpg'), :id => 'landing_link' do %>
 														<div class="overlay"><i class="fa fa-search"></i></div>
-														<%= image_tag("portfolio/small/03.png")%>
+														<%= image_tag("portfolio/small/10.jpg")%>
 													 <% end %>
                         </li>
                       <!-- <li class="mix web">
