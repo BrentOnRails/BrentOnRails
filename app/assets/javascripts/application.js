@@ -23,10 +23,10 @@
 //= require jquery.scrollTo.js
 //= require jquery.sticky.js
 //= require jquery.validate.js
-//= require jquery.vegas.min.js
 //= require jquery.easypiechart.min.js
 //= require main.js
 //= require modernizr-2.6.2.min.js
 //= require respond.min.js
 //= require waypoints.min.js
+//= require jquery.vegas.js
 //= require main.js

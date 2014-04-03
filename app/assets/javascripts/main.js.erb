@@ -97,7 +97,7 @@ $('.chart').waypoint(function() {
 		$.vegas('slideshow', {
 			  backgrounds:[
 
-				{ src:'<%= image_path('slider/slider01.jpg')%>', fade:1000 },
+				{ src:'<%= image_path('slider/01.jpg')%>', fade:1000 },
 				{ src:'<%= image_path('slider/02.jpg')%>', fade:1000 },
 				{ src:'<%= image_path('slider/03.jpg')%>', fade:1000 },
 				{ src:'<%= image_path('slider/04.jpg')%>', fade:1000 }
@@ -106,6 +106,7 @@ $('.chart').waypoint(function() {
 			  src:'<%= image_path('overlays/16.png')%>'
 			});
 			$( "#vegas-next" ).click(function() {
+        debugger
 			  $.vegas('next');
 			});
 			$( "#vegas-prev" ).click(function() {
