@@ -333,13 +333,14 @@ background-color: transparent;
         cursor: pointer;
 }
 .next{
-    background: url("../img/next.png");
+/*    background-image: url(<%= asset_path 'next.png' %>*/
+    background: url(<%= image_path 'next.png' %>);
     margin-right: 70px;
     right: 0;
     opacity: 0.3;
 }
 .prev{
-    background: url("../img/prev.png");
+    background: url(<%= image_path("prev.png") %>);
     margin-left: 70px;
     left: 0;
     opacity: 0.3;
