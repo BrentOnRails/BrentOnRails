@@ -29,4 +29,5 @@
 //= require waypoints.min.js
 //= require jquery.magnific-popup.js
 //= require jquery.vegas.js
+//= require owl.carousel.js
 //= require main.js
