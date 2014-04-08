@@ -43,6 +43,8 @@ gem 'letter_opener'
 
 gem 'newrelic_rpm'
 
+gem 'cloudinary'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

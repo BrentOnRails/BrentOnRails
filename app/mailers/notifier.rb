@@ -6,6 +6,7 @@ class Notifier < ActionMailer::Base
     def new_message(message)
       @message = message
       mail(
+      :from => message.email,
         :to => 'brentalansmith@gmail.com',
         :subject => 'New Message From ' + message.email
       )
