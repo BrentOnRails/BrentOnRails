@@ -77,4 +77,11 @@ BrentOnRails::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+  
+  Cloudinary.config do |config|
+    config.cloud_name = ENV['CLOUD']
+    config.api_key = ENV['CLOUD_API']
+    config.api_secret = ENV['CLOUD_API_SECRET']
+    config.cdn_subdomain = true
+  end
 end

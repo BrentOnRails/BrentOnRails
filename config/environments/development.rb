@@ -26,4 +26,14 @@ BrentOnRails::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+  
+  
+  
+  Cloudinary.config do |config|
+    config.cloud_name = ENV['CLOUD']
+    config.api_key = ENV['CLOUD_API']
+    config.api_secret = ENV['CLOUD_API_SECRET']
+    config.cdn_subdomain = true
+  end
+  
 end
