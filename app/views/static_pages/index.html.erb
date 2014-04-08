@@ -7,33 +7,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Web Developer for Hire</title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="">
-				<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <!-- Bootstrap core CSS -->
-        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-        <!-- Fonts from Font Awsome -->
-        <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-         <!-- Magnific popup -->
-        <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
-        <!-- Custom styles for this template -->
-        <!-- <link rel="stylesheet" href="css/main.css"> -->
-
-        <!-- Color styles -->
-        <!-- <link rel="stylesheet" href="css/colors/blue.css"> -->
-       <!-- <link rel="stylesheet" href="css/colors/yellow.css">-->
-       <!-- <link rel="stylesheet" href="css/colors/red.css"> -->
-       <!--  <link rel="stylesheet" href="css/colors/purple.css">-->
-        <!-- <link rel="stylesheet" href="css/colors/orange.css"> -->
-        <!-- <link rel="stylesheet" href="css/colors/green.css"> -->
-
-         <!-- Feature detection -->
-        <!-- // <script src="js/modernizr-2.6.2.min.js"></script> -->
-        <!-- Fonts -->
+        <meta name="author" content="BrentOnRails">
+		
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
 
@@ -70,11 +47,8 @@
     <!-- welcome begins -->
     <section id="page-welcome" class="page-welcome">
       <div>
-          <!-- <ul class="slider-controls">
-              <li><a id="vegas-next" class="next" href="#"></a></li>
-              <li><a id="vegas-prev" class="prev" href="#"></a></li>
-          </ul> -->
-        </div>
+		  <!-- TODO: removed controls because they weren't playing well with rails -->
+	  </div>
         <div class="container">
             <div class="row">
                 <header class="centered">
@@ -82,19 +56,24 @@
                     <p>PROFESSIONAL WEB DEVELOPER</p>
                 </header>
                 <div class="social-icons">
-                        <a target="_blank" href="https://twitter.com/brentasmith" class="btn btn-round btn-clear btn-twitter"><i class="fa fa-twitter"></i></a>
-                        <a target="_blank" href="https://www.facebook.com/brentalansmith" class="btn btn-round btn-clear btn-facebook"><i class="fa fa-facebook"></i></a>
-                        <!-- <a target="_blank" href="https://www.dribbble.com/" class="btn btn-round btn-clear btn-dribbble"><i class="fa fa-dribbble"></i></a> -->
-                        <a target="_blank" href="http://stackoverflow.com/users/2934802/brent" class="btn btn-round btn-clear btn-stack-overflow"><i class="fa fa-stack-overflow"></i></a>
-                        <a target="_blank" href="http://www.linkedin.com/in/brentalansmith/" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
-                         <a target="_blank" href="https://www.github.com/BrentOnRails" class="btn btn-round btn-clear btn-github"><i class="fa fa-github"></i></a>
-                        <a target="_blank" href="https://plus.google.com/+BrentSmithPlus/posts" class="btn btn-round btn-clear btn-google"><i class="fa fa-google-plus"></i></a>
+        
+		<a target="_blank" href="https://twitter.com/brentasmith" class="btn btn-round btn-clear btn-twitter"><i class="fa fa-twitter"></i></a>
+        <a target="_blank" href="https://www.facebook.com/brentalansmith" class="btn btn-round btn-clear btn-facebook"><i class="fa fa-facebook"></i></a>
+		<a target="_blank" href="http://stackoverflow.com/users/2934802/brent" class="btn btn-round btn-clear btn-stack-overflow"><i class="fa fa-stack-overflow"></i></a>
+        
+		<a target="_blank" href="http://www.linkedin.com/in/brentalansmith/" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
+	    
+		<a target="_blank" href="https://www.github.com/BrentOnRails" class="btn btn-round btn-clear btn-github"><i class="fa fa-github"></i></a>
+        <a target="_blank" href="https://plus.google.com/+BrentSmithPlus/posts" class="btn btn-round btn-clear btn-google"><i class="fa fa-google-plus"></i></a>
 
                 </div>
-                <a href="#page-contact" class="btn btn-default hire-me">Hire Me</a>
+                
+				<a href="#page-contact" class="btn btn-default hire-me">Hire Me</a>
             </div>
         </div>
-    </section><!-- welcome ends -->
+    </section>
+	<!-- end welcome section -->
+	
     <!-- profile begins -->
     <section id="page-profile" class="page-profile">
       <div class="container">
@@ -105,36 +84,40 @@
                 </header>
             <div class="row">
               <div class="col-md-3">
-                 <div class="profile"><%= image_tag("profile.png", height:"100%", alt:"profile")%>
-							</div>
+                 <div class="profile"><%= image_tag("profile.png", height:"100%", alt:"profile")%></div>
               </div>
                <div class="col-md-9">
                 <p>Born and raised on the Gulf Coast of Florida, in Bradenton, FL, my interest in application development began early in middle school with the (then) ubiquitous geocities and angelfire, which began my long love affair with programming. After discovering MMORPGs I began creating bots for Ultima Online using a psuedo-code language called <a href="http://EasyUO.com">EasyUO</a> based on the Pascal programming Language. When I realized that I could easily make extra spending money by expanding my small program I began adding additional bots and additional programs, which led to the creation of my first company Rivers Rescources (huge Weezer fan at the time!) After several years I moved onto other games and other languages. I eventually became an avid user and (occassional) contributor to the wildly successful <a href="http://mmoglider.net">MMOGlider</a>.</p>
+				
                 <p>After experiencing a market collapse for the third time when MMOGlider was banned and shuttered, I decided it was time to move away from part time jobs and part time scripting.  Luckily, I had my marketing degree to fall back on.  Unluckily, I've realized several years later that I preferred the Coding over the Cubicles, the Stylesheets over the Spreadsheets, and the Admin Console over the Sales Tracking.</p>
+				
                 <p>After graduating I spent time waiting tables and a stint selling timeshares in Orlando.  I moved to Newnan, GA to give the Atlanta job market a shot.  I landed a sales job at a small medical tech company specializing in collection.  After attempting to create a better CRM for our sales team I was approached by the COO who noticed I was "pretty good at excel".  I moved to the File Team and eventually moved my way up to Data Integration Engineer.</p>
                  <p>Eventually Georgia was no longer where I was meant to be!  I sold my house, said my goodbyes and landed a coveted position as a student at <a href="http://appacademy.io">App Academy</a> in San Francisco.  After 12 weeks of crashing at a friendss of friend's place, I have learned more than I ever thought possible in such a short amount of time (undoubtedly more than I had learned in the 20 years prior on my own.) I'm now looking for a Junior Rails Developer position and I couldn't be happier with the direction my life is headed!</p>
+				 
               </div>
 
             </div>
       </div>
-    </section><!-- profile ends -->
+    </section>
+	<!-- profile section end -->
 
 
 
 
 
-    <!-- skills begins -->
+    <!-- skills begin -->
      <section id="page-skills" class="page-skills">
        <div class="container">
 
-                 <header class="section-header">
-                    <h2 class="section-title"><span>Skills</span></h2>
-                      <div class="spacer"></div>
-                    <p class="section-subtitle">What I Use</p>
-                </header>
+         <header class="section-header">
+            <h2 class="section-title"><span>Skills</span></h2>
+              <div class="spacer"></div>
+            <p class="section-subtitle">What I Use</p>
+        </header>
 
 
-	<div id="owl-demo" class="owl-carousel owl-theme">
+	<div id="owl-caro" class="owl-carousel owl-theme">
+		
 	  <div class="owl-item"><%= cl_image_tag("http://res.cloudinary.com/dyk6yy09j/image/upload/c_fit,e_improve,h_125,w_125/v1396989488/rails_itp59b.png", width: "auto")%></div>
 	  
 	  <div class="owl-item"><%= cl_image_tag("http://res.cloudinary.com/dyk6yy09j/image/upload/c_scale,e_improve,w_125/v1396989488/HTML5_Logo_256_zsvqin.png", width: "auto")%></div>
@@ -145,55 +128,10 @@
 	  <div class="owl-item"><%= cl_image_tag("http://res.cloudinary.com/dyk6yy09j/image/upload/c_scale,h_125/v1396989488/pure-css-backbone-js_vqekty.jpg", width: "auto") %></div>
 	  <div class="owl-item"><%= cl_image_tag("http://res.cloudinary.com/dyk6yy09j/image/upload/c_scale,h_125/v1396989465/css_qtqjvk.png", width: "auto") %></div>
 	</div>
-            <!-- <div class="row"> -->
-              <!-- <div class="col-md-2">
-               <span class="chart" data-percent="85">
-                      <span class="percent"></span>
-                      <h3>Ruby</h3>
-               </span>
-            </div> -->
-               <!-- <div class="col-md-2 ">
-               <span class="chart" data-percent="69">
-                      <span class="percent"></span>
-                      <h3>Rails v4.0</h3>
-               </span>
-            </div>
-               <div class="col-md-2">
-               <span class="chart" data-percent="66">
-                      <span class="percent"></span>
-                       <h3>HTML5 <i class="fa fa-html5"></i></h3>
-
-               </span>
-            </div>
-               <div class="col-md-2">
-               <span class="chart" data-percent="59">
-                      <span class="percent"></span>
-                      <h3>CSS3 <i class="fa fa-css3"></i></h3>
-               </span>
-            </div>
-               <div class="col-md-2">
-               <span class="chart" data-percent="66">
-                      <span class="percent"></span>
-                      <h3>jQuery</h3>
-               </span>
-            </div>
-               <div class="col-md-2">
-               <span class="chart" data-percent="71">
-                      <span class="percent"></span>
-                       <h3>BackBone.js</h3>
-               </span>
-            </div>
-               <div class="col-md-2">
-               <span class="chart" data-percent="78">
-                      <span class="percent"></span>
-                       <h3>Javascript <i class="fa fa-coffee"></i></h3>
-               </span>
-            </div> -->
-
-          <!-- </div> -->
         </div>
-    </section><!-- skills ends -->
-    <!-- education begins -->
+    </section><!-- skills end -->
+	
+    <!-- education begin -->
      <section id="page-education" class="page-education">
        <div class="container">
                 <header class="section-header">
@@ -224,8 +162,10 @@
                 </div>
             </div>
        </div>
-    </section><!-- education ends -->
-    <!-- experience begins -->
+    </section>
+	<!-- education end -->
+	
+    <!-- experience begin -->
      <section id="page-experience" class="page-experience">
        <div class="container">
                 <header class="section-header">
@@ -283,62 +223,6 @@
 
 
 
-<!--                 <div id="grid-controls-wrapper">
-                <ul class="nav nav-pills center-pills grid-controls">
-                  <li class="active filter"><a href="javascript:void(0)" data-filter="*">All</a></li> -->
-                  <!-- <li class="filter" ><a href="javascript:void(0)" data-filter=".Code">Code</a></li> -->
-                  <!-- <li class="filter" ><a href="javascript:void(0)" data-filter=".design">Design</a></li>
-                  <li class="filter"><a href="javascript:void(0)"  data-filter=".photography">Photography</a></li> -->
-                  <!-- <li class="filter" ><a href="javascript:void(0)" data-filter=".screen">Screenshots</a></li>
-                </ul>
-              </div> -->
-
-                <!-- <div>
-                  <ul id="grid" class="grid-wrapper">
-                      <li class="mix screen" >
-                      <%= link_to image_path('portfolio/large/01.png'), :id => 'landing_link' do %>
-                        <div class="overlay"><i class="fa fa-search"></i></div>
-                          <%= image_tag("portfolio/small/01.png")%>
-                      <% end %>
-
-                      <li class="mix screen">
-                        <%= link_to image_path('portfolio/large/04.png'), :id => 'landing_link' do %>
-                          <div class="overlay"><i class="fa fa-search"></i></div>
-                            <%= image_tag("portfolio/small/04.png")%>
-                           <% end %>
-                        </li>
-                      <li class="mix screen">
-                        <%= link_to image_path('portfolio/large/10.jpg'), :id => 'landing_link' do %>
-                          <div class="overlay"><i class="fa fa-search"></i></div>
-                            <%= image_tag("portfolio/small/10.jpg")%>
-                           <% end %>
-                        </li> -->
-                      <!-- <li class="mix web">
-                        <a href="img/portfolio/large/04.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/04.png" alt="" ></a></li>
-                      <li class="mix branding">
-                        <a href="img/portfolio/large/05.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/05.png" alt="" ></a></li>
-                      <li class="mix design">
-                        <a href="img/portfolio/large/06.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/06.png" alt="" ></a></li>
-                      <li class="mix photography">
-                        <a href="img/portfolio/large/07.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/07.png" alt="" ></a></li>
-                      <li class="mix photography">
-                        <a href="img/portfolio/large/08.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/08.png" alt="" ></a></li>
-                      <li class="mix photography">
-                        <a href="img/portfolio/large/09.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/09.png" alt="" ></a></li>
-                      <li class="mix web">
-                        <a href="img/portfolio/large/10.jpg"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/10.jpg" alt="" ></a></li>
-                      <li class="mix design">
-                        <a href="img/portfolio/large/11.jpg"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/11.jpg" alt="" ></a></li>
-                      <li class="mix design">
-                        <a href="img/portfolio/large/12.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/12.png" alt="" ></a></li>
-                      <li class="mix design">
-                        <a href="img/portfolio/large/13.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/13.png" alt="" ></a></li>
-                      <li class="mix design">
-                        <a href="img/portfolio/large/14.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/14.png" alt="" ></a></li>
-                         <li class="mix branding">
-                        <a href="img/portfolio/large/15.png"><div class="overlay"><i class="fa fa-search"></i></div><img src="img/portfolio/small/15.png" alt="" ></a></li> -->
-                  <!-- </ul>
-                </div> -->
             </div>
         </div>
     </section><!-- portfolio ends -->
@@ -399,18 +283,5 @@
         </div>
     </section> <!-- contact ends -->
 
-
-<!--         <script src="app/assets/js/jquery-1.10.2.min.js"></script>
-        <script src="app/assets/js/bootstrap.min.js"></script>
-        <script src="app/assets/js/jquery.scrollTo.js"></script>
-        <script src="app/assets/js/jquery.nav.js"></script>
-        <script src="app/assets/js/jquery.sticky.js"></script>
-        <script src="app/assets/js/jquery.easypiechart.min.js"></script>
-        <script src="app/assets/js/jquery.vegas.min.js"></script>
-        <script src="app/assets/js/jquery.isotope.min.js"></script>
-        <script src="app/assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="app/assets/js/jquery.validate.js"></script>
-        <script src="app/assets/js/waypoints.min.js"></script>
-        <script src="app/assets/js/main.js"></script> -->
     </body>
 </html>

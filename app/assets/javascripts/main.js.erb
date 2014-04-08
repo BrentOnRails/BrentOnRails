@@ -116,19 +116,17 @@ $('.chart').waypoint(function() {
 		
 		$(document).ready(function() {
  
-		  var owl = $("#owl-demo");
+		  var owl = $("#owl-caro");
  
 		  owl.owlCarousel({
 		      items : 4, //4 items above 1000px browser width
 		      itemsDesktop : [1000, 4], //4 items between 1000px and 901px
 		      itemsDesktopSmall : [900,3], // betweem 900px and 601px
 		      itemsTablet: [600,2], //2 items between 600 and 0
-		      itemsMobile : [550, 1], // itemsMobile disabled - inherit from itemsTablet option
-		      // 
-					addClassActive: true
+		      itemsMobile : [550, 1], // looks a little better on 1 for iphone
 		  });
 			
-			owl.trigger('owl.play',1500);
+			owl.trigger('owl.play',1500); //slowed to 1500, otherwise rails logo doesnt stay very long after recycle animation
  
 		});
 

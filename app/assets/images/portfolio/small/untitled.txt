@@ -1,3 +1,0 @@
-<%= link_to(image_tag('portfolio/small/01.png'), "portfolio/large/01.png") do %>		
-		<div id="headerlogo"></div> fa-search"></i></div>
-<% end %>
