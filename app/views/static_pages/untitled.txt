@@ -1,0 +1,120 @@
+
+     <section id="page-portfolio" class="page-portfolio">
+          <div class="container">
+            <div class="row">
+                <header class="section-header">
+                    <h2 class="section-title"><span>Portfolio</span></h2>
+                      <div class="spacer"></div>
+                    <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+                </header>
+           
+                <div id="grid-controls-wrapper">
+                <ul class="nav nav-pills center-pills grid-controls">
+                  <li class="active filter"><a href="javascript:void(0)" data-filter="*">All</a></li>
+                  <li class="filter" ><a href="javascript:void(0)" data-filter=".branding">Branding</a></li>   
+                  <li class="filter" ><a href="javascript:void(0)" data-filter=".design">Design</a></li>            
+                  <li class="filter"><a href="javascript:void(0)"  data-filter=".photography">Photography</a></li>
+                  <li class="filter" ><a href="javascript:void(0)" data-filter=".web">Website</a></li>
+                </ul>
+              </div>
+            
+                <div>
+                  <ul id="grid" class="grid-wrapper">
+                    <li class="mix screen">
+                   <%= link_to image_path('http://res.cloudinary.com/dyk6yy09j/image/upload/c_fit,h_600,w_800/v1397064545/astroids_d3xogb.jpg'), :id => 'landing_link' do %>
+                          <div class="overlay">
+							  <i class="">Asteroids.js</i>
+						      
+						  </div>
+                            <%= image_tag("http://res.cloudinary.com/dyk6yy09j/image/upload/c_crop,h_300,w_400/v1397064545/astroids_d3xogb.jpg")%>
+                   <% end %>
+                   </li>
+                   <li class="mix screen">
+                     <%= link_to image_path('portfolio/large/02.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/02.png")%>
+                    <% end %>
+                    </li>
+                    <li class="mix screen">
+                      <%= link_to image_path('portfolio/large/03.png'), :id => 'landing_link' do %>
+                            <div class="overlay"><i class="fa fa-search"></i></div>
+                              <%= image_tag("portfolio/small/03.png")%>
+                     <% end %>
+                     </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/04.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/04.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/05.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/05.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/06.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/06.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/07.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/07.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/08.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/08.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/09.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/09.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/10.jpg'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/10.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/11.jpg'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/11.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/12.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/12.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/13.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/13.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/14.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/14.png")%>
+                    <% end %>
+                    </li>
+                     <li class="mix screen">
+                    <%= link_to image_path('portfolio/large/15.png'), :id => 'landing_link' do %>
+                           <div class="overlay"><i class="fa fa-search"></i></div>
+                             <%= image_tag("portfolio/small/15.png")%>
+                    <% end %>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </section>
