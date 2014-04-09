@@ -30,4 +30,5 @@
 //= require jquery.magnific-popup.js
 //= require jquery.vegas.js
 //= require owl.carousel.js
+//= require kinetic.js
 //= require main.js

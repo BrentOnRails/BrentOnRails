@@ -123,6 +123,9 @@ background-color: transparent;
     background:#fff;
 }
 
+
+
+
 #page-profile .profile{
     border: 5px solid #333;
     width:225px;
@@ -135,6 +138,12 @@ background-color: transparent;
 #page-skills{
     padding: 75px 0;
     background:#f7f7f7;
+    text-align: center;
+}
+
+#snake-page{
+    padding: 75px 0;
+    background:white;
     text-align: center;
 }
 
@@ -616,6 +625,7 @@ label.valid{
 
 
 }
+
 
 
 
