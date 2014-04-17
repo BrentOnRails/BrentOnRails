@@ -1,3 +1,3 @@
 This is my portfolio page, there is no reason to issue any pull requests for this repo :)
 
-Build using HTML, JS, Rails, CSS, Bootstrap.
+Build using HTML, JS, Rails, CSS, Bootstrap. 
